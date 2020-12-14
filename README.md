@@ -1,6 +1,6 @@
 # Python
 All my python code
 
-|Row #1|entry1|entry2|
-|------|------|------|
-|kjghfvfvnuv|bubuvninvir|vnvbuvbuv|
+|S.No|File Name|Description|Input|Output|Space Complexity|Time Complexity|
+|----|----|----|----|----|----|----|
+|kjghfvfvnuv|bubuvninvir|vnvbuvbuv|snvfjvn|fuv|fvfvf|fvfvf|
