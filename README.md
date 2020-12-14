@@ -3,4 +3,4 @@
 
 |S.No|File Name|Description|Input|Output|Space Complexity|Time Complexity|
 |----|----|----|----|----|----|----|
-|1|1.py|Write a HelloWorld code(Sanity check)|<div class="text-red">None</div>|HelloWorld|O(1)|O(1)|
+|1|1.py|Write a HelloWorld code(Sanity check)|-|HelloWorld|O(1)|O(1)|
