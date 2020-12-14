@@ -1,6 +1,6 @@
 # Python
-All my python code
+### All my python code
 
 |S.No|File Name|Description|Input|Output|Space Complexity|Time Complexity|
 |----|----|----|----|----|----|----|
-|kjghfvfvnuv|bubuvninvir|vnvbuvbuv|snvfjvn|fuv|fvfvf|fvfvf|
+|1|1.py|Write a HelloWorld code(Sanity check)|```python None ```|HelloWorld|O(1)|O(1)|
