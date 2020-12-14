@@ -11,6 +11,14 @@
 |6|6.py|String concatination|Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them.||||Easy|
 |7|7.py|`%` modulo to find remainder and conditions|Write a Python program to print "YES" if the user input number is even, else print "NO"|`n%2==0` for even number|||Easy|
 |8|8.py|Functions|Write a Python program to convert the given string into a morse code.|Morse code from internet|||Easy|
-|9|9.py|
-|10|10.py|
-|11|11.py|
+|9|9.py|Array|Given a list of numbers and a number k, return whether any two numbers from the list add up to k.|Values should be < or = k|||Easy|
+|10|10.py|Array|Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.||||Easy|
+|11|11.py|Array|Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.||||Easy|
+|12|12.py|Stack|Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).|Use stack|||Easy|
+|13|13.py|
+|14|14.py|
+|15|15.py|
+|16|16.py|
+|17|17.py|
+|18|18.py|
+|19|19.py|
