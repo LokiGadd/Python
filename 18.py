@@ -1,21 +1,33 @@
-# Problem 18
-
-'''
-Given a clock time in hh:mm format, determine, to the nearest degree, the angle between the hour and the minute hands.
-
-Bonus: When, during the course of a day, will the angle be zero?
+# 15 December 2020
 '''
 
-# 9 July 2020
+Given the names and grades for each student in a class of N students, store them in a nested list and print the name(s) of any student(s) having the second lowest grade.
 
-time = '10:30'
-arr = [int(a) for a in time.split(':')]
+'''
+def sorting(arr,index):
+    arr.sort(key = lambda x : x[index])
+    return arr
 
-# angle with minute hand = 6*mm degrees.
-angle_1 = 6*arr[1]
-# angle with hour hand = 30*hh + 0.5*mm degrees
-angle_2 = 30*arr[0] + arr[1]/2
+N = int(input())
+name = ''
+score = 0.0
+arr = []
+for i in range(N):
+    name = input()
+    score = float(input())
+    arr.append([name,score])
 
-print(angle_2 - angle_1)
+arr = sorting(arr,0)
+arr = sorting(arr,1)
+score = 0.0
+for i in arr:
+    if i[1] != arr[0][1]:
+        if score == 0.0:
+            score = i[1]
+            print(i[0])
+        elif score == i[1]:
+            print(i[0])
+        else:
+            break
 
-# Done
+# DONE

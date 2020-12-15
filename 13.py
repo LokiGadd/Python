@@ -1,26 +1,17 @@
-# Problem 13
-
-'''
-The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix M, where M[i][j] == 1 if there is a path between vertices i and j, and otherwise 0.
+# 15 December 2020
 '''
 
-# 21 May 2020
+You are given the firstname and lastname of a person on two different lines. Your task is to read them and print the following:
 
-graph = [[0, 1, 3],[1, 2],[2],[3]]
+Hello firstname lastname! You just delved into python.
 
-def if_connected(i,j):
-	if j in graph[i]:
-		return 1
-	else:
-		for k in graph[i][1:]:
-			if if_connected(k,j)==1:
-				return 1
-		return 0
-length = len(graph)
-arr = [[0]*length]*length
-for i in range(length):
-	for j in range(length):
-		arr[i][j] = if_connected(i,j)
-	print(arr[i])
+'''
+def print_full_name(a, b):
+    print("Hello " + a + " " + b + "! You just delved into python.")
 
-# Done
+if __name__ == '__main__':
+    first_name = input()
+    last_name = input()
+    print_full_name(first_name, last_name)
+
+# DONE
